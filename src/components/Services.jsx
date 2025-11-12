@@ -67,8 +67,9 @@ const Services = () => {
         <div className="car-showcase-content">
           <div className="car-image">
             <img 
-              src="/images/alphard.png" 
-              alt="Toyota Alphard - премиальный минивэн для комфортных путешествий"
+              src={import.meta.env.BASE_URL + 'images/alphard.png'}
+              alt="Toyota Alphard — премиальный минивэн для комфортных путешествий"
+              loading="lazy"
             />
           </div>
           <div className="car-description">

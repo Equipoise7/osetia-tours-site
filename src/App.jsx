@@ -1,7 +1,6 @@
 import Hero from './components/Hero'
 import ToursGallery from './components/ToursGallery'
 import Services from './components/Services'
-import AlphardPlaceholder from './components/AlphardPlaceholder'
 import Contact from './components/Contact'
 import ScrollEffects from './components/ScrollEffects'
 import './App.css'
@@ -13,7 +12,6 @@ function App() {
       <Hero />
       <ToursGallery />
   <Services />
-  <AlphardPlaceholder />
       <Contact />
     </div>
   )
