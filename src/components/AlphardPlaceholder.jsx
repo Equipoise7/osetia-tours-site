@@ -6,10 +6,11 @@ const AlphardPlaceholder = () => {
   return (
     <div className="alphard-placeholder">
       <img
-        src="/images/alphard.png"
+        src={import.meta.env.BASE_URL + 'images/alphard.png'}
         alt="Toyota Alphard — комфортный трансфер"
         className="alphard-image"
         loading="lazy"
+        onError={(e) => { e.currentTarget.style.opacity = '0'; }}
       />
     </div>
   )
