@@ -102,7 +102,7 @@ const Contact = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <p>&copy; 2024 Туры по Северной Осетии. Все права защищены.</p>
+  <p>&copy; 2025 Туры по Северной Осетии. Все права защищены.</p>
       </motion.footer>
     </section>
   )

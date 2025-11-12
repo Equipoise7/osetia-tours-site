@@ -40,6 +40,14 @@
   width: 100%;
   height: auto;
 }
+.alphard-image {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px -8px rgba(0,0,0,0.35);
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
 
 .placeholder-text {
   text-align: center;
@@ -60,6 +68,7 @@
   color: #666;
   font-size: 0.95rem;
 }
+/* Текст-заглушка удалён */
 
 @media (max-width: 768px) {
   .alphard-placeholder {
@@ -68,5 +77,11 @@
   
   .placeholder-text h4 {
     font-size: 1.1rem;
+  }
+  .alphard-placeholder {
+    padding: 20px 10px;
+  }
+  .alphard-image {
+    border-radius: 16px;
   }
 }
